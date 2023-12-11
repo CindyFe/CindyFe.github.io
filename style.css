@@ -1,0 +1,31 @@
+h1{
+	font-size: 60px;
+	text-align: center;
+	color: #000080
+}
+
+p{
+	font-size: 20px;
+	text-align: left;
+	font-family: Chalkduste;
+}
+
+body {
+	background-color: #007471;
+	background-image: url("https://jeunemarine.fr/wp-content/uploads/2022/09/CFC-2-scaled.jpg");
+}
+
+nav   a{
+float: left;    /* effet flottant */
+text-decoration: none; /* pas d'héritage avec effet souligné */
+color: #ffffff; /* couleur du texte */
+background: url(rubrique_off.png);  /* image de fond */
+height: 36px; /* hauteur */
+line-height: 33px;  /* interligne */
+padding: 0 10px; /* marges intérieur */
+font-family: sans-serif; /* police d'écriture */
+font-size: 13px; /* taille du texte */
+}
+nav   a:hover{
+background: url(rubrique_on.png); /* image de fond */
+}
